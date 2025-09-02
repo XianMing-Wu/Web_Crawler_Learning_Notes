@@ -25,17 +25,6 @@ graph TD
     PrintDetail --> LoopDetail
     LoopDetail --> End["任务完成"]
 
-    subgraph 数据模型
-        NoteContent["NoteContent"]
-        NotePushComment["NotePushComment"]
-        NoteContentDetail["NoteContentDetail"]
-    end
-
-    subgraph 技术栈
-        BS["BeautifulSoup"]
-        REQ["requests"]
-    end
-
     style Start fill:#90EE90
     style End fill:#FFB6C1
     style Step1 fill:#87CEEB
